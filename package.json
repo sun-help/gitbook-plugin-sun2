@@ -1,7 +1,7 @@
 {
   "name": "gitbook-plugin-sun2",
-  "version": "1.0.0",
-  "description": "test",
+  "version": "0.0.3",
+  "description": "text",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/sun-help/gitbook-plugin-sun2.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "sun"
+  ],
+  "author": "sun",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sun-help/gitbook-plugin-sun2/issues"

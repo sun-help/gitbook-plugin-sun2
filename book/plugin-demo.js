@@ -13,7 +13,9 @@ require(['gitbook','jquery'],function(gitbook,$)){
 	gitbook.events.('page.change',function(){
 		var back_to_top_button = ['<div class="sunhao"><i class="demo"></i></div>'].join("");
 	    $(".book").append(back_to_top_button)
-		$('.sunhao').click(download())
+		$('.sunhao').click(function(){
+		download();
 		})
+		});
 	
 });
