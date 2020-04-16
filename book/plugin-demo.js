@@ -1,3 +1,4 @@
+var gitbook = window.gitbook;
 require(['gitbook','jquery'],function(gitbook,$)){
 	var fetch = require("node-fetch");
     var fs = require("fs");
@@ -10,11 +11,11 @@ require(['gitbook','jquery'],function(gitbook,$)){
 			}
 		})
 	}
-	gitbook.events.('page.change',function(){
+	gitbook.events.on('page.change',function(){
 		var back_to_top_button = ['<div class="sunhao"><i class="demo"></i></div>'].join("");
-	    $(".book").append(back_to_top_button)
+	    	$(".book").append(back_to_top_button);
 		$('.sunhao').click(function(){
-		download();
+			download();
 		})
 		});
 	
