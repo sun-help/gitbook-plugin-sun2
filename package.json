@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-sun2",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "text",
   "main": "index.js",
   "scripts": {
